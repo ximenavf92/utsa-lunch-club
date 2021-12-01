@@ -1,0 +1,41 @@
+:root {
+    --background: #0c2340;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 3rem auto 2rem
+}
+
+p {
+    margin: 0 auto 1rem;
+    padding: .75rem;
+    font-size: 1.25rem;
+    /* background-color: hsl(0 0% 0% / .3); */
+}
+
+img {
+    justify-self: center;
+    margin: 2rem auto 0;
+    transform: rotate(-2.5deg);
+    transition: ease-in-out .2s;
+    box-shadow: 3px 3px 10px hsl(0, 0%, 10%);
+}
+
+img:hover {
+    transform: rotate(3deg);
+}
